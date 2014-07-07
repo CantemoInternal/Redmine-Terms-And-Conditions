@@ -1,0 +1,302 @@
+ <%= call_hook :view_account_login_top %>
+<h1 class="h1">Welcome <%= @user.firstname %>...</h1>
+<h3 class="h3">Terms and Conditions</h3>
+<style type="text/css">
+<!--
+#footer
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #BBBBBB;
+    clear: both;
+    color: #AAAAAA;
+    font-size: 12px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    top: 81px;
+}
+.h1
+{
+left: -30px;
+position: relative;
+top: -48px;
+}
+.h3
+{
+left: 10px;
+border-bottom: 0px ;
+position: relative;
+top: -5px;
+}
+.subhead1
+{
+        color: #000000;
+        text-align: left;
+        padding-left: 3px;
+        font-size: 11.5pt;
+        font-weight: bold;
+        line-height: 16px;
+        padding-top: 5px;
+}
+.bodytext
+{
+        color: #000000;
+        text-align: justify;
+        font-size: 9pt;
+        font-weight: normal;
+}
+.text011
+{
+        color: #005c84;
+        font-size: 14px;
+        text-align: left;
+}
+.text01
+{
+        color: #666666;
+        font-size: 14px;
+        text-align: left;
+}
+#tb td,th {
+         color: #423e34;
+         font-family: "Trebuchet MS";
+         font-size: 12px;
+        }
+#tb
+{
+    position: relative;
+    right: 192px;
+    width: 1000px;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    border: 1px solid #484848;
+   overflow:scroll;
+}
+.acc
+{
+
+    left: -220px;
+    position: relative;
+    top: 13px;
+
+}
+.de
+{
+    left: -215px;
+    position: relative;
+    top: 14px;
+}
+#tb_div
+{
+   border: 1px solid #484848;
+    height: 400px;
+    overflow: scroll;
+    position: relative;
+    right: 159px;
+}
+
+-->
+</style>
+<%=call_hook :view_account_login_top %>
+<%= form_for :my do |f| %>
+<div id="tb_div">
+<table id="tb1" >
+<tr >
+<td  class="bodytext" >This  is an agreement that constitutes the terms and conditions for use of the Mobile  Banking Services offered through Orange County's credit union (&ldquo;we&rdquo;, &ldquo;our&rdquo;, &ldquo;us&rdquo;) by the member (&ldquo;you&rdquo;, &ldquo;your&rdquo; or &ldquo;User&rdquo;) and applies  to both members registered for online banking and those that are not. For  Online Banking members, this is an addendum to the Online Banking Agreement for  Online Banking Services and sets forth the additional terms and conditions of  use. Except where modified by this Addendum, the terms and conditions of the  Online Banking Agreement remain in effect. If there is a conflict between the  Online Banking Agreement and this Addendum, the terms in this Addendum will  govern your use of the Mobile Banking Services.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td  class="text011"><span class="pageheader">1. ACCEPTANCE OF AGREEMENT</span></td>
+</tr>
+<tr>
+<td height="10">&nbsp;</td>
+</tr>
+<tr>
+<td  class="subhead1"><p>A.&nbsp;<u>Accepting this Agreement</u></p></td>
+</tr>
+<tr>
+<td  class="bodytext">By  clicking &quot;Agree&quot; when you register for Mobile Banking Services, you  agree to the terms and conditions of this Mobile Banking Service Agreement. Additionally,  by using the Mobile Banking Services, you also agree to the terms and  conditions of this Addendum.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<td  class="subhead1"><p>B.&nbsp;<u>Description of Services</u></p></td>
+<tr>
+<td  class="bodytext">Mobile  Banking is a personal financial information management service that allows you  to access account information, products and services similar to Online Banking  and make such other financial transactions as set forth in the Electronic Funds  Transfer Agreement using compatible and supported mobile phones and/or other  compatible and supported wireless devices (including phones, &ldquo;Wireless  Devices&rdquo;). We reserve the right to modify the scope of the Mobile Banking  Services at any time. We reserve the right to refuse to make any transaction  you request through Mobile Banking. You agree and understand that Mobile  Banking may not be accessible or may have limited utility over some mobile  telephone networks, such as while roaming. The most up-to-date list of services  which you may be able to access through Mobile Banking is posted on the Mobile  Banking registration and management website accessed through the Online banking  system. When you register for Mobile Banking, designated accounts linked to  your account through Online Banking will be accessible through the Mobile  Banking service.&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td  class="subhead1"><p>C.&nbsp;<u>Use of Services</u></p></td>
+</tr>
+<tr >
+<td  class="bodytext">Mobile  Banking will not work unless you use it properly. You accept responsibility for  making sure that you understand how to use Mobile Banking before you actually  do so, and you use Mobile Banking in accordance with the online instructions  posted on our Web site. You also accept responsibility for making sure that you  know how to properly use your Wireless Device and the Mobile Banking software  (&ldquo;Software&rdquo;). In the event we change or upgrade Mobile Banking, you are  responsible for making sure that you understand how to use Mobile Banking  as changed or upgraded. We will not be liable to you for any losses caused by  your failure to properly use Mobile Banking or your Wireless Device.</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="bodytext">You  agree that when you use Mobile Banking, you will remain subject to the terms  and conditions of all your existing agreements with us or any service providers  of yours, including service carrier or provider (e.g., AT&amp;T, Verizon,  Sprint, T-Mobile, Alltel, etc.), and that this Agreement does not amend or  supersede any of those agreements. You understand that those agreements may  provide for fees, limitations and restrictions which might impact your use of  Mobile Banking (for example, your mobile service carrier or provider may impose  data usage or text message charges for your use of or interaction with Mobile  Banking, including while downloading the Software, receiving or sending Mobile  Banking text messages, or other use of your Wireless Device when using the  Software or other products and services provided by Mobile Banking), and you  agree to be solely responsible for all such fees, limitations and restrictions.  You agree that only your mobile service carrier or provider is responsible for its products and services. Accordingly, you agree to resolve any problems with your carrier or provider directly with your carrier or provider without involving us. You also agree that if you have any problems with Mobile Banking, you will contact us directly.</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="text011"><span class="pageheader">2. Mobile Banking Software License</span></td>
+</tr>
+<tr >
+<td  class="bodytext" height="10"><p>Subject  to your compliance with this Addendum, you are hereby granted a personal,  limited, non-transferable, non-exclusive, non-sublicensable and non-assignable  license (&ldquo;License&rdquo;) to download, install and use the Software on your Wireless  Device within the United States and its territories. In the event that you  obtain a new or different Wireless Device, you will be required to download and  install the Software to that new or different Wireless Device. This License  shall be deemed revoked immediately upon (i) your termination of Mobile Banking  in accordance with this Agreement; (ii) your deletion of the Software from your  Wireless Device; or (iii) our written notice to you at any time with or without  cause. If this License is revoked for any of the foregoing reasons, you agree  to promptly delete the Software from your Wireless Device. The provisions of  Sections 3 and 4 of this Agreement shall survive revocation of the License.</p></td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="text011"><span class="pageheader">3. Your Obligations</span></td>
+</tr>
+<tr >
+<td  class="bodytext" height="10"><p>When  you use Mobile Banking to access accounts you designate during the registration  process, you agree to the following:</p></td>
+</tr>
+<tr>
+<td height="10">&nbsp;</td>
+</tr>
+<tr >
+<td  class="subhead1"><p>A.&nbsp;<u>Account Ownership/Accurate Information </u></p></td>
+</tr>
+<tr >
+<td  class="bodytext">You  represent that you are the legal owner of the accounts and other financial  information that may be accessed via Mobile Banking. You represent and agree  that all information you provide to us in connection with Mobile Banking is  accurate, current and complete, and that you have the right to provide such  information to us for the purpose of operating Mobile Banking. You agree to not  misrepresent your identity or your account information. You agree to keep your  account information up to date and accurate.</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="subhead1"><p>B.&nbsp;<u>Proprietary Rights</u></p></td>
+</tr>
+<tr >
+<td  class="bodytext">You  are permitted to use content delivered to you through Mobile Banking only on  Mobile Banking. You may not copy, reproduce, distribute, or create derivative  works from this content. Further, you agree not to reverse engineer or reverse  compile any Mobile Banking technology, including, but not limited to, any  Software or other mobile phone applications associated with Mobile Banking.</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="subhead1"><p>C.&nbsp;<u>User Conduct</u></p></td>
+</tr>
+<tr >
+<td  class="bodytext">You  agree not to use Mobile Banking or the content or information delivered through  Mobile Banking in any way that would: (a)&nbsp;infringe any third-party  copyright, patent, trademark, trade secret, or other proprietary rights or  rights of publicity or privacy, including any rights in the Software; (b) be  fraudulent or involve the sale of counterfeit or stolen items, including, but  not limited to, use of Mobile Banking to impersonate another person or entity;  (c) violate any law, statute, ordinance or regulation (including, but not  limited to, those governing export control, consumer protection, unfair  competition, anti-discrimination or false advertising); (d) be false,  misleading or inaccurate; (e) create liability for us or our affiliates or  service providers, or cause us to lose (in whole or in part) the services of  any of our service providers; (f)&nbsp;be defamatory, trade libelous,  unlawfully threatening or unlawfully harassing; (g) potentially be perceived as  illegal, offensive or objectionable; (h) interfere with or disrupt computer  networks connected to Mobile Banking; (i) interfere with or disrupt the use of  Mobile Banking by any other user; or (j) use Mobile Banking in such a manner as  to gain unauthorized entry or access to the computer systems of others.</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="subhead1"><p>D.&nbsp;<u>Transfers from Savings or Money Market Accounts</u></p></td>
+</tr>
+<tr >
+<td  class="bodytext">Federal  regulations limit the number of preauthorized electronic fund transfers and  telephone transfers  &ndash; including Online Banking or Mobile Banking transactions &ndash; you can make transfers from non-transaction accounts such as variable rate deposit accounts and savings accounts. You are limited to six (6)  preauthorized electronic fund transfers, telephone transfers, checks and  point-of-sale transactions per statement cycle. Of these six (6) transactions,  you are limited to only three (3) transactions by check or point-of-sale. (For  more information on these accounts, see your applicable account agreement.)  Each transfer or payment made from such accounts through the Online Banking or  Mobile Banking Services is counted as one of the six (6) limited transfers you  are permitted to make each statement period. We charge a fee for each  transaction in excess of this limit. We recommend that you not use a savings  account or money market account as your bill payment account because of these  restrictions and fees.</td>
+</tr>
+<tr >
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="subhead1"><p>
+E.&nbsp;
+<u>No Commercial Use or Re-sale</u></p></td>
+</tr>
+<tr >
+<td  class="bodytext">You  agree that the Mobile Banking services are for personal use only. You agree not  to resell or make commercial use of Mobile Banking for your profit.&nbsp;</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="subhead1"><p>
+F.&nbsp;
+<u>Indemnification</u></p></td>
+</tr>
+<tr >
+<td  class="bodytext">Unless  caused by our intentional misconduct or gross negligence, you agree to protect  and fully compensate us and service providers from any and all third party  claims, liability, damages, expenses and costs (including, but not limited to,  reasonable attorney&rsquo;s fees) caused by or arising from your improper use of  Mobile Banking software or your infringement, or infringement by any other user  of your account, of any intellectual property or other right of anyone.</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="subhead1"><p>
+G.&nbsp;
+<u>User Security</u></p></td>
+</tr>
+<tr >
+<td  class="bodytext">You  agree not to give or make available your Mobile Banking Personal Identification  Number (the &ldquo;PIN&rdquo;) or other means to access your account to any unauthorized  individuals. You are responsible for transfers or other transactions you  authorize using Mobile Banking. If you permit other persons to use your  Wireless Device and PIN or other means to access Mobile Banking, you are  responsible for any transactions they authorize. If you believe that your PIN,  Wireless Device or other means to access your account has been lost or stolen  or that someone may attempt to use Mobile Banking without your consent, or has  transferred money without your permission, you must notify us promptly by  calling Member Services at (888)354-6228.</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<tr >
+<td  class="text011"><span class="pageheader">4. Service Charges</span></td>
+</tr>
+<tr >
+<td  class="bodytext"><p>You  agree to pay related account transaction fees and charges in accordance with  our current fee schedule and as amended from time to time. You authorize us to  automatically charge your account for all such fees incurred in connection with  Mobile Banking. In the future, we may add to or enhance the features of Mobile  Banking. By using such added or enhanced features, you agree to pay for them in  accordance with the fee schedule.</p></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr >
+<td  class="text011"><span class="pageheader">5. Additional Provisions</span></td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="subhead1">A.&nbsp;<u>Mobile Banking Service Limitations</u></td>
+</tr>
+<tr >
+<td  class="bodytext"><p>Neither we nor our service  providers can always foresee or anticipate technical or other difficulties  related to Mobile Banking. These difficulties may result in loss of data,  personalization settings or other Mobile Banking interruptions. Neither we nor  any of our service providers assume responsibility for the timeliness,  deletion, mis-delivery or failure to store any user data, communications or  personalization settings in connection with your use of Mobile Banking.<br />
+Neither we nor any of our service  providers assume responsibility for the operation, security, functionality or  availability of any Wireless Device or mobile network, which you utilize to  access Mobile Banking.</p></td>
+</tr>
+<tr >
+<td  class="bodytext"><p>You agree to exercise caution  when utilizing the Mobile Banking application on your Wireless Device and to  use good judgment and discretion when obtaining or transmitting information. Financial information shown on Mobile Banking  reflects the most recent account information available  through Mobile Banking, and may not be current. You agree that neither we nor  our service providers will be liable for any delays in the content, or for any  actions you take in reliance thereon. If you need current account information  you agree to contact us directly.</p></td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="subhead1"><p>B.&nbsp;<u>Changes or Cancellation</u></p></td>
+</tr>
+<tr >
+<td   class="bodytext">You  may cancel your participation in Mobile Banking by accessing the Mobile Banking  account maintenance tool within Online Banking or by calling us at  (888)354-6228. We reserve the right to change or cancel Mobile Banking at any  time without notice. We may also suspend your access to Mobile Banking at any time  without notice and for any reason, including but not limited to, your non-use  of Mobile Banking services. You agree that we will not be liable to you or any  third party for any discontinuance of Mobile Banking.</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr >
+<td  class="subhead1"><p>C.&nbsp;<u>Third Party Beneficiary</u></p></td>
+</tr>
+<tr >
+<td  class="bodytext">You  agree that our service providers (including any provider of Software) may rely  upon your agreements and representations, in Sections 3<strong>&nbsp;</strong>and 4<strong>&nbsp;</strong>of  this Agreement, above, and such service providers are, for the purposes of  those sections, third party beneficiaries to this Agreement, with the power to  enforce those provisions against you, as applicable.</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+<tr>
+<td class="text01">&nbsp;</td>
+</tr>
+</table>
+</div>
+<table class="ts_btn" align="center" cellpadding="5" >
+<tr >
+<td class="accq">
+      <%= f.submit "Accept",:class=>'acc' %>
+</td>
+<td class="deq"  >
+     <%= f.submit "Decline",:class=>'de' %>
+</td>
+</tr>
+</table>
+<%end -%>
+<%= call_hook :view_account_login_bottom %>
+
+
