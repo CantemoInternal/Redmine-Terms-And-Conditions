@@ -6,9 +6,8 @@ Redmine Terms and conditions  when logging redmine new users first must agree th
 
 Installation notes
 ------------------
-Steps: Download last version from https://github.com/johnp2686/Redmine-Terms-And-Conditions.git 
-rename Redmine-Terms-And-Conditions to redmine_terms
-goto 
-redmine_terms/app/views/terms/ terms_st.html.erb write out company terms and conditions contents
-rake redmine:plugins:migrate RAILS_ENV=production
-Restart you Redmine server.
+Step1 : Download last version from https://github.com/johnp2686/Redmine-Terms-And-Conditions.git ,
+Step2 : Rename Redmine-Terms-And-Conditions to redmine_terms,
+Step3 : Goto redmine_terms/app/views/terms/ terms_st.html.erb write out company terms and conditions contents,
+Step4 : rake redmine:plugins:migrate RAILS_ENV=production,
+Step5 : Restart you Redmine server.
