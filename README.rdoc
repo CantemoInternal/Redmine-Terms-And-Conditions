@@ -1,5 +1,5 @@
 
-Redmine-Terms and conditions 
+Redmine Terms
 ----------------------------
 
 Redmine Terms and conditions  when logging redmine new users first must agree the company terms and conditions otherwise wont allow users
@@ -12,6 +12,8 @@ Step2 : Rename Redmine-Terms-And-Conditions to redmine_terms,
 
 Step3 : Goto redmine_terms/app/views/terms/ terms_st.html.erb write out company terms and conditions contents,
 
-Step4 : rake redmine:plugins:migrate RAILS_ENV=production,
+step4 : Goto this path Redmine-Terms-And-Conditions/app/views/terms/terms_st.html.erb open the file write your conditions
 
-Step5 : Restart you Redmine server.
+Step5 : rake redmine:plugins:migrate RAILS_ENV=production,
+
+Step6 : Restart your Redmine server.
