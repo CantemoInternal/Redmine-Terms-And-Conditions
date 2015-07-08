@@ -1,8 +1,8 @@
 
 Redmine Terms
-----------------------------
+-------------
 
-Redmine Terms and conditions  when logging redmine new users first must agree the company terms and conditions otherwise wont allow users
+By using this our Redmine tool any of customer agree to be legally bound by these terms, which shall take effect immediately on your first use of our website. If you do not agree to be legally bound by all the following terms please do not access and/or use our website.
 
 Installation notes
 ------------------
